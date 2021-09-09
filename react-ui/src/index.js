@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './styles/styles.scss';
 import reportWebVitals from './reportWebVitals';
+import TimothyTraining from './components/TimothyTraining';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <TimothyTraining />
   </React.StrictMode>,
   document.getElementById('root')
 );
